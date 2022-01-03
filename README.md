@@ -1,8 +1,8 @@
 # Flutter Dart Game Scorer application with upto 15 Players
 
-Flutter Dart Game Scorer applicatipon
+Flutter Dart Game Scorer application
 
-Appliction created on windows 10 64 bit And android studio is used for creating app with flutter and dart plugin.
+Application created on windows 10 64 bit & android studio is used for creating app with flutter and dart plugin.
 
 The app is based on local storage i.e. using shared preferences.
 
