@@ -1,16 +1,28 @@
-# dart_game
+# Flutter Dart Game Scorer application with upto 15 Players
 
-A new Flutter project.
+Flutter Dart Game Scorer application
 
-## Getting Started
+Application created on windows 10 64 bit & android studio is used for creating app with flutter and dart plugin.
 
-This project is a starting point for a Flutter application.
+The app is based on local storage i.e. using shared preferences.
 
-A few resources to get you started if this is your first Flutter project:
+The app is using flutter null safety completly.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[Download APK](https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/app-release.apk)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p float="left">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/1.png" width="200" hspace="20">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/2.png" width="200" hspace="20">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/3.png" width="200" hspace="20">
+</p>
+
+<p float="left">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/4.png" width="200" hspace="20">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/5.png" width="200" hspace="20">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/6.png" width="200" hspace="20">
+</p>
+
+<p float="left">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/7.png" width="200" hspace="20">
+<img src="https://github.com/mohitagrawal939/dart-game-scorer/blob/master/assets/8.png" width="200" hspace="20">
+</p>
