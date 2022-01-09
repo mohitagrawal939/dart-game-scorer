@@ -17,8 +17,8 @@ class _CreateGameState extends State<CreateGame> {
   TextEditingController noOfPlayerController = TextEditingController();
   bool isMain = false;
   Map<String, dynamic> gameDetailsMap = {
-    'game_name': "Player 1",
-    'no_of_players': 15,
+    'game_name': "Dart Game Default",
+    'no_of_players': 25,
     'winner_name': "LoveYourself",
     'winner_score': 999,
     'is_tie': false,
@@ -68,6 +68,36 @@ class _CreateGameState extends State<CreateGame> {
       },
       {
         "name": "Player 15", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 16", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 17", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 18", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 19", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 20", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 21", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 22", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 23", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 24", 'a': 999, 'b': 999, 'c': 999, 'total':999
+      },
+	  {
+        "name": "Player 25", 'a': 999, 'b': 999, 'c': 999, 'total':999
       },
     ]
   };
@@ -143,8 +173,8 @@ class _CreateGameState extends State<CreateGame> {
               }else if(int.parse(noOfPlayerController.text.trim()) <= 0){
                 const snackBar = SnackBar(content: Text('Atleast one player is required'));
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
-              }else if(int.parse(noOfPlayerController.text.trim()) > 15){
-                const snackBar = SnackBar(content: Text('Maximum 15 players is allowed'));
+              }else if(int.parse(noOfPlayerController.text.trim()) > 25){
+                const snackBar = SnackBar(content: Text('Maximum 25 players is allowed'));
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               }else{
                 setState(() {
